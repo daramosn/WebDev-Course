@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms demo</title>
+</head>
+
+<body>
+    <h1>Forms demo!</h1>
+    <form action="/tacos">
+        <!-- Ejemplo 1 de label  -->
+        <p>
+            <label for="username">Enter something</label>
+            <input type="text" placeholder="username" id="username" name="username">
+        </p>
+        <!-- Ejemplo 2 de label  -->
+        <p>
+            <label>
+                Enter the password
+                <input type="password" name="pass">
+            </label>
+        </p>
+        <p>
+            <input type="range">
+            <input type="color">
+            <input type="month">
+            <input type="date" name="hola" id="mundo">
+        </p>
+
+        Ejemplo de botón
+        <button>Submit</button>
+        <button type="button">Submit!!!</button>
+        <input type="submit" value="Click me!">
+    </form>
+    <hr>
+    <button>I don't do nothing</button>
+    <hr>
+    <h2>Hijacking searches hehe</h2>
+    <h3>Youtube</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>Search on Youtube</button>
+    </form>
+    <h3>Google</h3>
+    <hr>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search on Google</button>
+    </form>
+
+    <hr>
+    <h2>More inputs</h2>
+    <form action="birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree"> I agree to all terms and conditions</label>
+
+
+        <p>Choose your t/shirt size</p>
+        <input type="radio" name="size" id="s" value="s">
+        <label for="s">S</label>
+        <input type="radio" name="size" id="m" value="m">
+        <label for="m">M</label>
+        <input type="radio" name="size" id="l" value="l">
+        <label for="l">L</label>
+
+        <hr>
+        <label for="pet">Please choose an animal</label>
+        <select name="pets" id="pet">
+            <option value="" selected>--------------</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="horse">Horse</option>
+            <option value="bear">Bear</option>
+            <option value="bird">Bird</option>
+        </select>
+
+        <p>
+            <input type="range" id="cheese" min="10" max="80" name="cheeseLevel">
+            <label for="cheese">Amount of cheese</label>
+        </p>
+
+        <hr>
+        <p>
+            <label for="story">Tell me your story!</label>
+            <br>
+            <textarea name="story" id="story" cols="30" rows="10" placeholder="Write something here"></textarea>
+        </p>
+
+        <input type="submit">
+    </form>
+
+    <h3>Requirements</h3>
+    <form action="dummy">
+        <p>
+            <label for="first">Write your first name</label>
+            <input type="text" name="first" id="first" required>
+        </p>
+        <button>Submit</button>
+    </form>
+
+
+</body>
+
+</html>
