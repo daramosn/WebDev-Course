@@ -1,0 +1,47 @@
+section {
+    background-color: #1d4e89;
+    width: 500px;
+    height: 500px;
+}
+
+div {
+    background-color: #fbd1a2;
+    width: 50%;
+    height: 30%;
+}
+
+h1 {
+    font-size: 50px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+
+article {
+    font-size: 15px;
+}
+
+/* It takes the font-size in relation with his 'parent', article in this case */
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 0.5em;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.7em;
+    background-color: chocolate;
+    color: white;
+}
+
+ul {
+    font-size: 1.5em;
+}

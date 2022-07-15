@@ -1,0 +1,32 @@
+h1 {
+    background-color: beige;
+    border: 2px solid blue;
+    /* display: inline; */
+}
+
+span {
+    background-color: aquamarine;
+    border: 2px solid violet;
+    border-style: ridge;
+
+    /* Is respected just in line */
+    padding: 20px;
+    margin: 40px;
+}
+
+h2 {
+    background-color: bisque;
+    border: 2px solid tomato;
+    width: 100px;
+    padding: 30px;
+    margin: 90px;
+}
+
+nav {
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 30px;
+}

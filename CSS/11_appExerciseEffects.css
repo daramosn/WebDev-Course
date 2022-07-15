@@ -1,0 +1,26 @@
+body {
+    background-color: #151b29;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    font-size: 1em;
+    background: none;
+    padding: 1em 2em;
+    border: 2px solid #ffc24f;
+    border-radius: 0%;
+    color: #ffc24f;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    border-color: yellow;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em yellow;
+    cursor: pointer;
+}
