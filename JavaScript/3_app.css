@@ -1,0 +1,27 @@
+p {
+    text-align: center;
+    max-width: 50%;
+    margin-inline: auto;
+}
+
+#image {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 400px;
+}
+
+.content {
+    width: 800px;
+    text-align: center;
+    margin: 50px auto;
+    border: 2px solid black;
+}
+
+.purple {
+    color: purple;
+}
+
+.border {
+    border: 2px solid red;
+}
