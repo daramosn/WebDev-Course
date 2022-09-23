@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    border: 2px solid black;
+    margin: 0 300px;
+}
+
+img {
+    width: 200px;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}

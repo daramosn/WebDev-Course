@@ -26,7 +26,7 @@ function colorize() {
 
 const buttons = document.querySelectorAll('button');
 const h1s = document.querySelectorAll('h1');
-const h2s = document.querySelector
+const h2s = document.querySelector;
 
 // const input = document.querySelector('input');
 // input.addEventListener('keydown', () => console.log('Keydown'));
