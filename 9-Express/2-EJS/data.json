@@ -1,0 +1,59 @@
+{
+    "soccer": {
+        "name": "Soccer",
+        "suscribers": 800,
+        "description": "blablablablablabla",
+        "posts": [
+            {
+                "title": "SIIIUUUUUUUUU",
+                "author": "bicholover123"
+            },
+            {
+                "title": "Is Messi a dog????",
+                "author": "maradona_567"
+            },
+            {
+                "title": "I love FIFA",
+                "author": "elfifas"
+            }
+        ]
+    },
+    "chickens": {
+        "name": "Chickens",
+        "suscribers": 3653,
+        "description": "Group for talking about how cute are the chickens",
+        "posts": [
+            {
+                "title": "My chicken",
+                "author": "pepito"
+            },
+            {
+                "title": "I'm selling this chicken bros",
+                "author": "kfc"
+            },
+            {
+                "title": "AAAAHHHHHHH",
+                "author": "catman"
+            }
+        ]
+    },
+    "dogs": {
+        "name": "Dogs",
+        "suscribers": 80000,
+        "description": "Dogs are life",
+        "posts": [
+            {
+                "title": "Look at my dog",
+                "author": "grandpa123"
+            },
+            {
+                "title": "My dog is trying to kill me help!!!",
+                "author": "schizo_guy"
+            },
+            {
+                "title": "My dog doesn't want to sleep with me????",
+                "author": "cat666"
+            }
+        ]
+    }
+}
